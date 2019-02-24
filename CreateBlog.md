@@ -41,7 +41,7 @@ thumbnail: http://static.open-open.com/lib/uploadImg/20150620/20150620203424_361
 第一次使用git向github提交，需要先配置用户信息，执行命令 
 
     git config --global user.name "你的github名字"
-    git config --global usr.email "你的github绑定邮箱"
+    git config --global user.email "你的github绑定邮箱"
 3、创建ssh  
     
     ssh-keygen -t rsa -C 你的邮箱
