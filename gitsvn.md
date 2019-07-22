@@ -9,15 +9,15 @@ thumbnail: https://gitee.com/yzytmac/resource/raw/master/git.png
 个人喜欢用git,但工作中主要还是svn,如何使用git来控制svn的项目呢,有请主角git-svn登场
 ## 安装
 在Linux中需要安装git, svn, git-svn
-```shell
+```bash
 sudo apt install git subversion git-svn
 ```
 在mac中只需安装git和svn,因为git中已经包含了git-svn
-```shell
+```bash
 brew install git subversion
 ```
 ## 命令
-```shell
+```bash
 # 拉取一个项目
 git svn clone xxx [--username=xxx]
 
@@ -39,6 +39,17 @@ git diff #显示工作去与暂存区的修改
 
 # 提交svn仓库
 git svn dcommit
+```
+## 常见问题
+```bash
+#当执行git svn rebase更新代码时可能会提示下面错误 
+branches/xxx/.idea/misc.xml: needs update
+update-index --refresh: command returned error: 1
+#说明本地与服务端冲突了,只需执行下面操作即可解决
+git update-index --refresh xxx/.idea/misc.xml
+#或者执行下面命令,意思是假设本地文件没有改变
+git update-index --assume-unchanged xxx/.idea/misc.xml
+
 ```
 ## 总结
 与svn服务器有关的操作就用git svn命令开头,仅仅在本地的操作就用git开头
