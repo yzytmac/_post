@@ -3,7 +3,7 @@ title: CMAKE总结
 date: 2019-02-22 14:25:03
 tags: CMAKE
 categories: CMAKE教程
-thumbnail: https://gitee.com/yzytmac/resource/raw/master/cmake.jpg
+thumbnail: https://raw.githubusercontent.com/yzytmac/yzytmac.github.io/master/medias/cmake.jpeg
 ---
 
 # CMAKE总结

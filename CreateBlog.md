@@ -108,6 +108,4 @@ github中-> 头像 -> settings -> SSH and GpG key -> New SSH key
 ## 联系我：
 邮箱：yzytmac@163.com  
 微信：  
-![](https://gitee.com/yzytmac/resource/raw/master/yzyweixin.png "微信二维码")  
-- 觉得有用可以打赏我一下，多少不限，全看您的心意。  
-![](https://gitee.com/yzytmac/resource/raw/master/alipay.png "支付宝二维码")![](https://gitee.com/yzytmac/resource/raw/master/weixinpay.png "微信二维码")
+![](https://raw.githubusercontent.com/yzytmac/yzytmac.github.io/master/medias/yzyweixin.png "微信二维码")  

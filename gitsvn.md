@@ -3,7 +3,7 @@ title: git-svn总结
 date: 2019-02-25 15:15:07
 tags: 版本控制
 categories: git-svn教程
-thumbnail: https://gitee.com/yzytmac/resource/raw/master/git.png
+thumbnail: https://raw.githubusercontent.com/yzytmac/yzytmac.github.io/master/medias/git.png
 ---
 ## 写在前面
 个人喜欢用git,但工作中主要还是svn,如何使用git来控制svn的项目呢,有请主角git-svn登场
@@ -39,6 +39,9 @@ git diff #显示工作去与暂存区的修改
 
 # 提交svn仓库
 git svn dcommit
+
+# 查看项目的信息
+git svn info
 ```
 ## 常见问题
 ```bash
